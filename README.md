@@ -15,9 +15,15 @@ details on model dependencies and usage of functions.
 
 ## Scripts
 
-### Name.R
+### Preprocessing.R
 
-Bayesian piecewise regression model to learn peak discharge Qp from eta, the product of flood volume and the breach rate. Written in R.
+Script to obtain annual statistics of
+- GLOF counts by dam type;
+- glaciological research activity;
+- temperature; and
+- precipitation
+from the original OpenOffice spreadsheet 'Global_GLOF_database_2021_06_09.ods', which is available in the Section 'Input data'.
+The scripts produces the R-Data object 'regional_glof_stats.rds', which is available in the same folder.
 
 ## Input data
 
@@ -46,6 +52,10 @@ Description of the column names:
 ## References
 
 Veh, G., Lützow, N., Kharlamova; V., Petrakov, D., Hugonnet, R. & Korup, O.: Reporting bias in historic glacier lake outburst floods. (in preparation)
+
+## See also
+
+https://glofs.geoecology.uni-potsdam.de
 
 ## Contact
 
