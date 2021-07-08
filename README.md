@@ -6,10 +6,10 @@ This repository contains the source codes
 - to hind- and forecast GLOF counts, based on these two predictors.
 
 The codes are written in the statistical programming language R (https://www.r-project.org/) and run
-using the Graphical User Interface RStudio (https://rstudio.com) from a MS Windows 10 OS. 
-Please install both softwares on your machine.
+from the Graphical User Interface RStudio (https://rstudio.com) under a Microsoft Windows 10 operating system. 
+Please install both R and RStudio on your machine.
 
-The R codes depend on a number of packages. Please install those before running the codes. The comments within the scripts provide further 
+The R codes also depend on a number of packages. Please install those before running the codes. The comments within the scripts provide further 
 details on model dependencies and usage of functions. 
 
 
