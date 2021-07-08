@@ -13,20 +13,13 @@ The R codes depend on a number of packages. Please install those before running 
 details on model dependencies and usage of functions. 
 
 
-## Scripts
-
-### Preprocessing.R
-
-Script to obtain annual statistics of
-- GLOF counts by dam type;
-- glaciological research activity;
-- temperature; and
-- precipitation
-- 
-from the original OpenOffice spreadsheet 'Global_GLOF_database_2021_06_09.ods', which is available in the Section 'Input data'.
-The scripts produces the R-Data object 'regional_glof_stats.rds', which is available in the same folder.
-
 ## Input data
+
+### Global_GLOF_database_2021_06_09.ods
+
+Open-Office spre
+
+
 
 ### regional_glof_stats.rds
 
@@ -49,6 +42,22 @@ Description of the column names:
 - 'temp_q25': 25th percentile of annual air temperatures in a given region;
 - 'temp_q75': 75th percentile of annual air temperatures in a given region;
 - 'pre_sum': total amount of precipitation in a given region.
+
+## Scripts
+
+### Preprocessing.R
+
+Script to obtain annual statistics of
+
+- GLOF counts by dam type;
+- glaciological research activity;
+- temperature; and
+- precipitation
+
+from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods'
+The scripts produces the R-Data object 'regional_glof_stats.rds', which is already available on this page.
+
+
 
 ## References
 
