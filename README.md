@@ -44,14 +44,16 @@ Description of the column names:
 
 ## References
 
-Veh, G., Korup, O. & A. Walz: Hazard from Himalayan glacier lake outburst floods. PNAS *(accepted)*.
+Veh, G., Lützow, N., Kharlamova; V., Petrakov, D., Hugonnet, R. & Korup, O.: Reporting bias in historic glacier lake outburst floods. (in preparation)
 
 ## Contact
 
 Georg Veh
 
 Working group on natural hazards
+
 University of Potsdam
+
 georg.veh@uni-potsdam.de
 
 https://www.uni-potsdam.de/de/umwelt/forschung/ag-naturgefahren.html
