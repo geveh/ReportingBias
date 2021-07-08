@@ -30,14 +30,14 @@ Description of the column names:
 - 'ice': Number of ice-dam failures per year;
 - 'other': Number of GLOFs from other (bedrock, water pockets, supraglacial) or unknown sources;
 - 'volc': Number of GLOFs from subglacial lakes beneath ice-covered volcanoes;
-- 'mb_meas'
-- 'front_meas'
-- 'dch_meas'
+- 'mb_meas': Annual number of glacier surveys measuring in-situ mass balances from the WGMS database;
+- 'front_meas': Annual number of glacier surveys measuring in-situ front variations;
+- 'dch_meas': Annual number of glacier surveys measuring geodetic mass balances (includes also remote sensing studies);
 - 'all_meas': Annual sum of mb_meas, front_meas, and dch_meas;
 - 'mb_and_front': Annual sum of mb_meas and front_meas;
 - 'region': Name of the study region;
 - 'year_scale': Standardised years (zero mean and unit standard deviation)
-- 'temp_mean': Mean annual air temperature extracted from the CRU TS 4.05 dataset (https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.05/) from all lakes that produced at least one GLOF in a given region;
+- 'temp_mean': Mean annual air temperature extracted from the CRU TS 4.05 dataset from all lakes that produced at least one GLOF in a given region;
 - 'temp_q25': 25th percentile of annual air temperatures in a given region;
 - 'temp_q75': 75th percentile of annual air temperatures in a given region;
 - 'pre_sum': total amount of precipitation in a given region.
