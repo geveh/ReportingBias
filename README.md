@@ -23,6 +23,9 @@ The first row is the column name, followed by two rows with further description 
 The content of the columns 'Major_RGI_Region', 'Mountain_range_Region', 'Glacier',	'RGI_Glacier_Id', and	'RGI_Glacier_Area' is from the
 Randolph Glacier Inventory, V6.0 (https://www.glims.org/RGI/rgi60_dl.html).
 
+### Region_extents.zip
+
+Extents of study regions in a WGS 84 / World Mercator projection
 
 ### regional_glof_stats.rds
 
