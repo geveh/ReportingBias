@@ -20,8 +20,27 @@ Bayesian piecewise regression model to learn peak discharge Qp from eta, the pro
 
 ## Input data
 
+### regional_glof_stats.rds
 
-
+R-Data object (a list with 8 entries) containing regional annual statistics of GLOF occurrences, temperatures, and research activity.
+Description of the column names:
+- 'year': Year;
+- 'freq': Total number of reported GLOFs per year, including GLOFs from volcanic eruptions;
+- 'moraine': Number of moraine-dam failures per year;
+- 'ice': Number of ice-dam failures per year;
+- 'other': Number of GLOFs from other (bedrock, water pockets, supraglacial) or unknown sources;
+- 'volc': Number of GLOFs from subglacial lakes beneath ice-covered volcanoes;
+- 'mb_meas'
+- 'front_meas'
+- 'dch_meas'
+- 'all_meas': Annual sum of mb_meas, front_meas, and dch_meas;
+- 'mb_and_front': Annual sum of mb_meas and front_meas;
+- 'region': Name of the study region;
+- 'year_scale': Standardised years (zero mean and unit standard deviation)
+- 'temp_mean': Mean annual air temperature extracted from the CRU TS 4.05 dataset (https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.05/) from all lakes that produced at least one GLOF in a given region;
+- 'temp_q25': 25th percentile of annual air temperatures in a given region;
+- 'temp_q75': 75th percentile of annual air temperatures in a given region;
+- 'pre_sum': total amount of precipitation in a given region.
 
 ## References
 
