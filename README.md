@@ -37,7 +37,7 @@ Description of the column names:
 - 'all_meas': Annual sum of mb_meas, front_meas, and dch_meas;
 - 'mb_and_front': Annual sum of mb_meas and front_meas;
 - 'region': Name of the study region;
-- 'year_scale': Standardised years (zero mean and unit standard deviation)
+- 'year_scale': Standardised years (zero mean and unit standard deviation);
 - 'temp_mean': Mean annual air temperature extracted from the CRU TS 4.05 dataset from all lakes that produced at least one GLOF in a given region;
 - 'temp_q25': 25th percentile of annual air temperatures in a given region;
 - 'temp_q75': 75th percentile of annual air temperatures in a given region;
