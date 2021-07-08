@@ -22,6 +22,7 @@ Script to obtain annual statistics of
 - glaciological research activity;
 - temperature; and
 - precipitation
+- 
 from the original OpenOffice spreadsheet 'Global_GLOF_database_2021_06_09.ods', which is available in the Section 'Input data'.
 The scripts produces the R-Data object 'regional_glof_stats.rds', which is available in the same folder.
 
