@@ -17,8 +17,11 @@ details on model dependencies and usage of functions.
 
 ### Global_GLOF_database_2021_06_09.ods
 
-Open-Office spre
-
+Open-Office spreadsheet as of 09 June 2021 with seven sheets named after the regions, for which we obtained historical GLOF occurrences. 
+Each sheet has 32 columns containing the attributes that we were able to collect for each GLOF. Empty cells mean 'No Data'. 
+The first row is the column name, followed by two rows with further description of the content and the data structure.
+The content of the columns 'Major_RGI_Region', 'Mountain_range_Region', 'Glacier',	'RGI_Glacier_Id', and	'RGI_Glacier_Area' is from the
+Randolph Glacier Inventory, V6.0 (https://www.glims.org/RGI/rgi60_dl.html).
 
 
 ### regional_glof_stats.rds
