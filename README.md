@@ -18,7 +18,7 @@ The comments within the scripts provide further details on model dependencies an
 
 ### preprocessing.R
 
-Script to obtain annual statistics of
+Preparation script to obtain annual statistics of
 
 - GLOF counts by dam type;
 - glaciological research activity;
@@ -26,17 +26,17 @@ Script to obtain annual statistics of
 - precipitation
 
 from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods', available at this page (see a detailed description in the section on [Input data](#global_glof_database_2021_06_09ods)).
-The scripts produces the R-Data object 'regional_glof_stats.rds', which is already available on this page.
+The script produces the R-Data object *regional_glof_stats.rds*, which is already available on this page.
 
 ### assessing_bias.R
 
-Script to 
+Main script to 
 
 - find change points in time series of reported GLOFs, air temperatures, and glacier surveys;
 - estimate trends in GLOF reporting for each study region and dam type;
 - predict annual GLOF counts from air temperatures and the number of glacier surveys;
 - to hind- and forecast the number of GLOFs before and after the global break in GLOF reporting.
-- produce all figures in the manuscript.
+- reproduce all figures in the manuscript.
 
 
 
