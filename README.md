@@ -25,7 +25,7 @@ Script to obtain annual statistics of
 - temperature; and
 - precipitation
 
-from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods', available at this page (see a detailed description in the section [Input data](#input-data)).
+from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods', available at this page (see a detailed description in the section on [Input data](#global_glof_database_2021_06_09ods)).
 The scripts produces the R-Data object 'regional_glof_stats.rds', which is already available on this page.
 
 ### assessing_bias.R
