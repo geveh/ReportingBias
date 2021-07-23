@@ -1,16 +1,34 @@
 # ReportingBias
 
-This repository contains the source codes 
-- to estimate temporal and regional trends in reported GLOFs, 
-- to estimate GLOF trends from the predictors 'annual air temperatures' and 'research activity', and
-- to hind- and forecast GLOF counts, based on these two predictors.
+This repository contains two scripts, one to preprocess a raw data table of reported GLOFs (*preprocessing.R*), and a second one (*assessing_bias*) that  
+- estimates temporal and regional trends in reported GLOFs; 
+- estimates GLOF trends from the predictors 'annual air temperatures' and 'research activity'; and
+- hind- and forecasts annual GLOF counts, based on these two predictors.
 
-The codes are written in the statistical programming language R (https://www.r-project.org/) and run
-from the Graphical User Interface RStudio (https://rstudio.com) under a Microsoft Windows 10 operating system. 
-Please install both R and RStudio on your machine.
+The codes are written in the statistical programming language **R** (https://www.r-project.org/) and run
+from the Graphical User Interface **RStudio** (https://rstudio.com) under a Microsoft Windows 10 operating system. 
+Please install both **R and RStudio** on your machine.
 
-The R codes also depend on a number of packages. Please install those before running the codes. The comments within the scripts provide further 
-details on model dependencies and usage of functions. 
+The R codes also depend on a number of packages, listed at the beginning of both scripts. 
+Please install those before running the codes. 
+The comments within the scripts provide further details on model dependencies and usage of functions. 
+
+
+## Scripts
+
+### preprocessing.R
+
+Script to obtain annual statistics of
+
+- GLOF counts by dam type;
+- glaciological research activity;
+- temperature; and
+- precipitation
+
+from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods', available at this page (see more description in section **Input data**.
+The scripts produces the R-Data object 'regional_glof_stats.rds', which is already available on this page.
+
+### assessing_bias.R
 
 
 ## Input data
@@ -50,23 +68,6 @@ Description of the column names:
 - 'temp_q25': 25th percentile of annual air temperatures in a given region;
 - 'temp_q75': 75th percentile of annual air temperatures in a given region;
 - 'pre_sum': total amount of precipitation in a given region.
-
-
-## Scripts
-
-### preprocessing.R
-
-Script to obtain annual statistics of
-
-- GLOF counts by dam type;
-- glaciological research activity;
-- temperature; and
-- precipitation
-
-from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods'.
-The scripts produces the R-Data object 'regional_glof_stats.rds', which is already available on this page.
-
-### assessing_bias.R
 
 
 
