@@ -1,6 +1,6 @@
 # ReportingBias
 
-This repository contains two scripts, one that preprocesses a raw data table of reported GLOFs ([preprocessing.R](#preprocessingr)), and a second one (*assessing_bias.R*) that  
+This repository contains two scripts, one that preprocesses a raw data table of reported GLOFs ([preprocessing.R](#preprocessingr)), and a second one ([assessing_bias.R](#assessing_biasr)) that  
 - estimates temporal and regional trends in reported GLOFs; 
 - estimates GLOF trends from the predictors 'annual air temperatures' and 'research activity'; and
 - hind- and forecasts annual GLOF counts, based on these two predictors.
