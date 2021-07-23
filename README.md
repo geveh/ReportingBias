@@ -54,7 +54,7 @@ Description of the column names:
 
 ## Scripts
 
-### Preprocessing.R
+### preprocessing.R
 
 Script to obtain annual statistics of
 
@@ -63,14 +63,14 @@ Script to obtain annual statistics of
 - temperature; and
 - precipitation
 
-from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods'
+from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods'.
 The scripts produces the R-Data object 'regional_glof_stats.rds', which is already available on this page.
 
 
 
 ## References
 
-Veh, G., Lützow, N., Kharlamova; V., Petrakov, D., Hugonnet, R. & Korup, O.: Reporting bias in historic glacier lake outburst floods. (in preparation)
+Veh, G., Lützow, N., Kharlamova; V., Petrakov, D., Hugonnet, R. & Korup, O.: Limited rise of glacier lake outburst floods despite increased atmospheric warming since the 1970s. (submitted)
 
 ## See also
 
