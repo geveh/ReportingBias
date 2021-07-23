@@ -30,7 +30,15 @@ The scripts produces the R-Data object 'regional_glof_stats.rds', which is alrea
 
 ### assessing_bias.R
 
-Script to obtain annual statistics of
+Script to 
+
+- find change points in time series of reported GLOFs, air temperatures, and glacier surveys;
+- estimate trends in GLOF reporting for each study region and dam type;
+- predict annual GLOF counts from air temperatures and the number of glacier surveys;
+- to hind- and forecast the number of GLOFs before and after the global break in GLOF reporting.
+- produce all figures in the manuscript.
+
+
 
 
 ## Input data
