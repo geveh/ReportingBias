@@ -7,7 +7,7 @@ This repository contains two scripts, one to preprocess a raw data table of repo
 
 The codes are written in the statistical programming language **R** (https://www.r-project.org/) and run
 from the Graphical User Interface **RStudio** (https://rstudio.com) under a Microsoft Windows 10 operating system. 
-Please install both **R and RStudio** on your machine.
+To successfully run the codes, please install both **R and RStudio** on your machine.
 
 The R codes also depend on a number of packages, listed at the beginning of both scripts. 
 Please install those before running the codes. 
