@@ -66,6 +66,8 @@ Script to obtain annual statistics of
 from the original Open-Office spreadsheet 'Global_GLOF_database_2021_06_09.ods'.
 The scripts produces the R-Data object 'regional_glof_stats.rds', which is already available on this page.
 
+### assessing_bias.R
+
 
 
 ## References
@@ -74,7 +76,7 @@ Veh, G., Lützow, N., Kharlamova; V., Petrakov, D., Hugonnet, R. & Korup, O.: Li
 
 ## See also
 
-https://glofs.geoecology.uni-potsdam.de
+http://glofs.geoecology.uni-potsdam.de
 
 ## Contact
 
