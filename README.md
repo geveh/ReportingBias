@@ -83,7 +83,7 @@ Description of the column names:
 
 ## References
 
-Veh, G., Lützow, N., Kharlamova; V., Petrakov, D., Hugonnet, R. & Korup, O.: Limited rise of glacier lake outburst floods despite increased atmospheric warming since the 1970s. (submitted)
+Veh, G., Lützow, N., Kharlamova; V., Petrakov, D., Hugonnet, R. & Korup, O.: *Trends, breaks, and biases in the frequency of reported glacier lake outburst floods. Earth's Future* (accepted)
 
 ## See also
 
